@@ -1,31 +1,33 @@
 import java.util.Scanner;
 
-public class Vetores {
+public class ExercicioVetores {
 
 	public static void main(String[] args) {
 		
 		double aluno1, aluno2, aluno3, aluno4, aluno5, aluno6, aluno7, aluno8, aluno9, aluno10, total;
 		Scanner leitor = new Scanner(System.in);
 		
-		System.out.println("Por favor, digite o consumo do 1º aluno");
+		
+		
+		System.out.println("Por favor, digite o consumo do 1o aluno");
 		aluno1 = leitor.nextDouble();
-		System.out.println("Por favor, digite o consumo do 2º aluno");
+		System.out.println("Por favor, digite o consumo do 2o aluno");
 		aluno2 = leitor.nextDouble();
-		System.out.println("Por favor, digite o consumo do 3º aluno");
+		System.out.println("Por favor, digite o consumo do 3o aluno");
 		aluno3 = leitor.nextDouble();
-		System.out.println("Por favor, digite o consumo do 4º aluno");
+		System.out.println("Por favor, digite o consumo do 4o aluno");
 		aluno4 = leitor.nextDouble();
-		System.out.println("Por favor, digite o consumo do 5º aluno");
+		System.out.println("Por favor, digite o consumo do 5o aluno");
 		aluno5 = leitor.nextDouble();
-		System.out.println("Por favor, digite o consumo do 6º aluno");
+		System.out.println("Por favor, digite o consumo do 6o aluno");
 		aluno6 = leitor.nextDouble();
-		System.out.println("Por favor, digite o consumo do 7º aluno");
+		System.out.println("Por favor, digite o consumo do 7o aluno");
 		aluno7 = leitor.nextDouble();
-		System.out.println("Por favor, digite o consumo do 8º aluno");
+		System.out.println("Por favor, digite o consumo do 8o aluno");
 		aluno8 = leitor.nextDouble();
-		System.out.println("Por favor, digite o consumo do 9º aluno");
+		System.out.println("Por favor, digite o consumo do 9o aluno");
 		aluno9 = leitor.nextDouble();
-		System.out.println("Por favor, digite o consumo do 10º aluno");
+		System.out.println("Por favor, digite o consumo do 10o aluno");
 		aluno10 = leitor.nextDouble();
 		
 		total = aluno1 + aluno2 + aluno3 + aluno4 + aluno5 + aluno6 + aluno7 + aluno8 + aluno9 + aluno10;
